@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9d19f36610.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="top_line">
+      <div class="top_line_container">
+        Opening Times: Fri to Mon 11:30am – 4pm &nbsp; | &nbsp; 64 3 314 6085
+        &nbsp;| &nbsp;
+        <a href="shop.html"><i class="fas fa-search"></i></a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        <a href="join.html" class="bt_sign_in">Sign in</a>
+      </div>
+    </div>
+    <!--------------- Sunny's NAV--------------->
+    <div class="nav">
+      <!--Webpage Nav-->
+      <div class="nav_container">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li id="logo">
+            <a href="home.html"
+              ><img src="./resources/images/logo_w.png" width="150" alt=""
+            /></a>
+          </li>
+          <li><a href="book.html">Book Now</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Mobile Nav -->
+      <div class="mobile-container">
+        <div class="mobile_nav">
+          <a href="home.html" class="active"
+            ><img src="./resources/images/logo_w.png" width="100"
+          /></a>
+          <ul id="myLinks">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="book.html">Book now</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="login.html" id="mobile_li_login">Log In</a></li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+          <!--Back Button-->
+          <button onclick="goBack()" class="goBack">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-------Sunny's Nav End------->
+
+    <!--SUBPAGE CONTENT-->
+    <div class="subpage_container">
+      <div class="title_container">
+        <div class="title">Booking</div>
+        <div class="sub_title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+          minus.
+        </div>
+      </div>
+      <div class="form_container two">
+        <form>
+          <div class="custom-select">
+            <select class="form_category" name="category">
+              <option value="0">Select type of your booking</option>
+              <option value="1">Restaurant</option>
+              <option value="2">Wine Tour</option>
+              <option value="3">Black Estate B&B</option>
+              <option value="4">Kumiko's Guest House</option>
+            </select>
+          </div>
+          <input type="text" id="fname" name="fname" placeholder="Name" />
+          <input type="email" id="email" name="fname" placeholder="E-mail" />
+          <input
+            type="text"
+            id="phone"
+            name="fname"
+            placeholder="Phone Number"
+          />
+          <textarea
+            name="message"
+            rows="10"
+            cols="30"
+            placeholder="Message"
+          ></textarea>
+
+          <label class="checkbox_container">
+            I agree to terms
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+
+          <input type="submit" value="Submit" />
+        </form>
+
+        <div id="calander">
+          <img src="./resources/images/calander.jpg" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_title">FRIENDS OF BLACK ESTATE</div>
+        <div class="footer_subtitle">
+          Get Latest News and Special Offers in Your Inbox
+        </div>
+        <form>
+          <div class="form_line">
+            <label for="fname">First name </label
+            ><input class="input_text" type="text" id="fname" value="" />
+            <label for="lname">Last name </label
+            ><input class="input_text" type="text" id="lname" value="" />
+          </div>
+          <div class="form_line">
+            <label for="email">Email Address</label
+            ><input class="input_text" type="text" name="" id="email" />
+          </div>
+          <div class="submit">
+            <input type="submit" value="Subscribe" /><a
+              href="wineclub.html"
+              class="about_club"
+              >About Club</a
+            >
+          </div>
+        </form>
+        <div class="sns">
+          <a href="https://www.facebook.com/blackestatewines/" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://www.instagram.com/blackestate/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer_underline"></div>
+      <p>
+        614 Omihi Road (SH1). Waipara Valley, New Zealand |
+        connect@blackestate.co.nz | 64 3 314 6085
+        <br />
+        Cellar Door 10am - 4pm ( Thur to Mon )&nbsp; | &nbsp; Restaurant 11:30am
+        - 4pm ( Fri to Mon )
+      </p>
+    </footer>
+
+    <!--MOBILE NAV JS-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+    <script>
+      var x, i, j, l, ll, selElmnt, a, b, c;
+      /*look for any elements with the class "custom-select":*/
+      x = document.getElementsByClassName("custom-select");
+      l = x.length;
+      for (i = 0; i < l; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        ll = selElmnt.length;
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < ll; j++) {
+          /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+          c = document.createElement("DIV");
+          c.innerHTML = selElmnt.options[j].innerHTML;
+          c.addEventListener("click", function (e) {
+            /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+              if (s.options[i].innerHTML == this.innerHTML) {
+                s.selectedIndex = i;
+                h.innerHTML = this.innerHTML;
+                y = this.parentNode.getElementsByClassName("same-as-selected");
+                yl = y.length;
+                for (k = 0; k < yl; k++) {
+                  y[k].removeAttribute("class");
+                }
+                this.setAttribute("class", "same-as-selected");
+                break;
+              }
+            }
+            h.click();
+          });
+          b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function (e) {
+          /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+          e.stopPropagation();
+          closeAllSelect(this);
+          this.nextSibling.classList.toggle("select-hide");
+          this.classList.toggle("select-arrow-active");
+        });
+      }
+      function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+            except the current select box:*/
+        var x,
+          y,
+          i,
+          xl,
+          yl,
+          arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        xl = x.length;
+        yl = y.length;
+        for (i = 0; i < yl; i++) {
+          if (elmnt == y[i]) {
+            arrNo.push(i);
+          } else {
+            y[i].classList.remove("select-arrow-active");
+          }
+        }
+        for (i = 0; i < xl; i++) {
+          if (arrNo.indexOf(i)) {
+            x[i].classList.add("select-hide");
+          }
+        }
+      }
+      /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+      document.addEventListener("click", closeAllSelect);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/9d19f36610.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="top_line">
+        <div class="top_line_container">Opening Times: Fri to Mon 11:30am – 4pm &nbsp; | &nbsp; 64 3 314 6085 &nbsp;|
+            &nbsp;
+            <a href="shop.html"><i class="fas fa-search"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="join.html" class="bt_sign_in">Sign in</a>
+        </div>
+    </div>
+    <!--------------- Sunny's NAV--------------->
+    <div class="nav">
+
+        <!--Webpage Nav-->
+        <div class="nav_container">
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li id="logo"><a href="home.html"><img src="./resources/images/logo_w.png" width="150" alt=""></a></li>
+                <li><a href="book.html">Book Now</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Mobile Nav -->
+        <div class="mobile-container">
+            <div class="mobile_nav">
+                <a href="home.html" class="active"><img src="./resources/images/logo_w.png" width="100"></a>
+                <ul id="myLinks">
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="book.html">Book now</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="login.html" id="mobile_li_login">Log In</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <!--Back Button-->
+                <button onclick="goBack()" class="goBack"><i class="fas fa-chevron-left"></i></button>
+
+                <script>
+                    function goBack() {
+                        window.history.back();
+                    }
+                </script>
+
+            </div>
+        </div>
+    </div>
+    <!-------Sunny's Nav End------->
+    </div>
+
+    <!--SUBPAGE CONTENT-->
+    <div class="subpage_container">
+        <div class="title_container">
+            <div class="title">Three Organic Hillside Vineyards</div>
+            <button id="myBtn" class="bt_map">Check Map here</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <img src="./resources/images/map.jpg">
+                        </div>
+
+                    </div>
+        </div>
+        
+        
+        <article class="article_style_01">
+            <section id="section1"><img src="./resources/images/Home Vineyard.jpg" alt=""></section>
+            <section id="section2" class="section_text">
+                <h2>Home Vineyard</h2>
+                <div class="bar home"> </div>
+                <p>The Home Vineyard is located 6 kilometres north east of the Waipara Junction, in the Omihi
+                    sub-district of Waipara Valley, North Canterbury. The slope is a north facing sedimentary clay
+                    fan on a gentle hill side slope.
+                    <br><br>
+                    <strong>Bottom Block</strong>
+                    <br>
+                    The vineyard was planted by the late Russell and Kimiko Black. The Pinot Noir was planted in a
+                    3.8 ha block. Un-grafted predominantly 10-5 clone and were planted in 1994 at a vine density of
+                    1841 vines per hectare. The vineyard was irrigated once in 1998.
+                    <br>
+                    The Chardonnay grows in the adjacent 3.8ha block. Un-grafted Mendoza Chardonnay vines were
+                    planted in 1994 at a vine density of 1841 vines per hectare.
+                    <br><br>
+                    <strong>Top Block</strong>
+                    <br>
+                    A 4ha block sits above the original Black Estate block . The soils are mainly Awapuni clay with
+                    calcium carbonate deposits. This new planting completed in 2011 is at 6177 vine/ha and all vines
+                    are on rootstock. One hectare is planted with Chardonnay – Mendoza, B95, ENTAV-INRA®548, and
+                    ENTAV-INRA®1066 clones. Pinot Noir planted over 2 hectares with 115, 667, 828, 943, Abel, and
+                    UCD5 clones. Chenin Blanc is 0.5 hectares (clones 880 and 220). The Cabernet Franc vineyard is
+                    0.3 hectares (clones 214, 327, and 678).</p>                
+            </section>
+
+            <section id="section3" class="section_text">
+                <h2>Damsteep Vineyard</h2>
+                <div class="bar damsteep"> </div>
+                <p>Damsteep Vineyard is located in the north east of Waipara Valley at the foot of the Omihi Saddle,
+                    10km north of our Home Vineyard. Riesling and Pinot Noir grow here with vine density of more
+                    than 5000 vine per hectare.
+                    <br><br>
+                    Pinot Noir is grown on a 5 hectare north east facing slope, with an altitude between 140 to 180
+                    meters above sea level. The vines here were planted in 1999 and grow on clay overlying fractured
+                    limestone and sandstone soils.
+                    <br><br>
+                    The Riesling vineyard is 2.2 ha and lies on a north facing slope below the pinot noir. The soil
+                    is in very dense brown/ orange clay and inter bedded with sandstones and subordinate limestone
+                    horizons.
+                    <br><br>
+                    Organic and Biodynamic practices have been used since 2010.
+                    Certified with BioGro.</p>
+                </section>
+           
+            <section id="section4"><img src="./resources/images/Damsteep.jpg" alt=""></section>
+
+            <section id="section5"><img src="./resources/images/Netherwood.jpg" alt=""></section>
+            
+            <section id="section6" class="section_text">
+                <h2>Netherwood Vineyard</h2>
+                <div class="bar netherwood"> </div>
+                <p>Planted by Russell Black and Daniel Schuster in 1986 at a vine density of 5000 vines per hectare.
+                    Netherwood’s soils are classified as Waipara Greensand which is a green grey richly glauconitic
+                    sandstone.
+                    <br><br>
+                    Pinot Noir cuttings were planted here on their own roots and established and farmed without
+                    irrigation. The Chardonnay block is 0.8 hectares and was planted in 1986 on a south facing
+                    hillside. The vines are mass selection and thought to be cuttings of Mendoza Chardonnay. The
+                    vine density should be 5000 vines per hectare but half of them are Pinot Noir so it is hard to
+                    tell.
+                    <br><br>
+                    Organic and Biodynamic practices have been used since 2012.
+                    Certified with BioGro.</p>                  
+                    
+                </section>
+        </article>
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_title">FRIENDS OF BLACK ESTATE</div>
+            <div class="footer_subtitle">Get Latest News and Special Offers in Your Inbox</div>
+            <form>
+                <div class="form_line">
+                    <label for="fname">First name </label><input class="input_text" type="text" id="fname" value="">
+                    <label for="lname">Last name </label><input class="input_text" type="text" id="lname" value="">
+                </div>
+                <div class="form_line">
+                    <label for="email">Email Address</label><input class="input_text" type="text" name="" id="email">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Subscribe"><a href="wineclub.html" class="about_club">About Club</a>
+                </div>
+            </form>
+            <div class="sns">
+                <a href="https://www.facebook.com/blackestatewines/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/blackestate/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer_underline"></div>
+        <p>
+            614 Omihi Road (SH1). Waipara Valley, New Zealand | connect@blackestate.co.nz | 64 3 314 6085
+            <br>
+            Cellar Door 10am - 4pm ( Thur to Mon )&nbsp; | &nbsp; Restaurant 11:30am - 4pm ( Fri to Mon )
+        </p>
+    </footer>
+
+    <!--MOBILE NAV JS-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+    <!--Popup JS-->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

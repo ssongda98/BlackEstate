@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9d19f36610.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="top_line">
+      <div class="top_line_container">
+        Opening Times: Fri to Mon 11:30am – 4pm &nbsp; | &nbsp; 64 3 314 6085
+        &nbsp;| &nbsp;
+        <a href="shop.html"><i class="fas fa-search"></i></a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        <a href="join.html" class="bt_sign_in">Sign in</a>
+      </div>
+    </div>
+    <!--------------- Sunny's NAV--------------->
+    <div class="nav">
+      <!--Webpage Nav-->
+      <div class="nav_container">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li id="logo">
+            <a href="home.html"
+              ><img src="./resources/images/logo_w.png" width="150" alt=""
+            /></a>
+          </li>
+          <li><a href="book.html">Book Now</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Mobile Nav -->
+      <div class="mobile-container">
+        <div class="mobile_nav">
+          <a href="home.html" class="active"
+            ><img src="./resources/images/logo_w.png" width="100"
+          /></a>
+          <ul id="myLinks">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="book.html">Book now</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="login.html" id="mobile_li_login">Log In</a></li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+          <!--Back Button-->
+          <button onclick="goBack()" class="goBack">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-------Sunny's Nav End------->
+
+    <!--SUBPAGE CONTENT-->
+    <div class="subpage_container">
+      <div class="title_container">
+        <div class="title">Shop</div>
+        <div class="sub_title">
+          <strong
+            >Freight is complimentary for all orders over $100 in New
+            Zealand</strong
+          >, and please see our overseas shipping rates in your cart.<br /><br />
+
+          Welcome. We make our wines with intense enthusiasm and detail in our
+          vineyards, and naturally in our cellar. We’re pursuing pure and clear
+          expressions of each of our three sites. Hand picked, organic and
+          biodynamic grapes are fermented with vineyard derived yeasts and not
+          subject to additives, fining or filtering. Only minimal sulphur is
+          added at bottling (sometimes none). Our wines are certified organic
+          Bio Gro (5202) and benefit from thoughtful insights using biodynamic
+          practices.
+        </div>
+      </div>
+
+      <div>
+        <input class="searchbar" type="text" placeholder="Search.." />
+        <submit class="bt_search" type="submit"
+          ><i class="fa fa-search"></i
+        ></submit>
+      </div>
+
+      <div class="shop_categories_container">
+        <div class="shop_categories">WINE</div>
+        <div class="shop_categories">CASES</div>
+        <div class="shop_categories">VOUCHERS</div>
+        <div class="shop_categories">OTHER</div>
+      </div>
+
+      <div class="shop_productList_container">
+        <div class="shop_productList">
+          <a href="shop_detail.html">
+            <img
+              src="./resources/images/Black Estate Damsteep Rosé 2020.jpg"
+              alt=""
+            />
+            <div class="productName">Damsteep Damsteep Rosé 2020</div>
+            <div class="productPrice">$35.00</div>
+          </a>
+        </div>
+        <div class="shop_productList">
+          <a href="shop_detail.html">
+            <img
+              src="./resources/images/Black Estate Netherwood Rosé 2020.jpg"
+              alt=""
+            />
+            <div class="productName">Black Estate Netherwood Rosé 2020</div>
+            <div class="productPrice">$35.00</div>
+          </a>
+        </div>
+        <div class="shop_productList">
+          <a href="shop_detail.html">
+            <img
+              src="./resources/images/Black_Estate Home Chardonnay Young Vines 2020.jpg"
+              alt=""
+            />
+            <div class="productName">
+              Black_Estate Home Chardonnay Young Vines 2020
+            </div>
+            <div class="productPrice">$35.00</div>
+          </a>
+        </div>
+        <div class="shop_productList">
+          <a href="shop_detail.html">
+            <img
+              src="./resources/images/Black Estate Treble Rosé 2020.jpg"
+              alt=""
+            />
+            <div class="productName">Black Estate Treble Rosé 2020</div>
+            <div class="productPrice">$35.00</div>
+          </a>
+        </div>
+        <div class="shop_productList">
+          <img
+            src="./resources/images/Black Estate Wild Life Profilo 2019.jpg"
+            alt=""
+          />
+          <div class="productName">Black Estate Wild Life Profilo 2019</div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img
+            src="./resources/images/Black Estate Wild Life Riesling B 2019.jpg"
+            alt=""
+          />
+          <div class="productName">Black Estate Wild Life Riesling B 2019</div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img
+            src="./resources/images/Black Estate Wild Life Winery Block 2020.jpg"
+            alt=""
+          />
+          <div class="productName">
+            Black Estate Wild Life Winery Block 2020
+          </div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img
+            src="./resources/images/Black_Estate Home Chardonnay Young Vines 2020.jpg"
+            alt=""
+          />
+          <div class="productName">
+            Black_Estate Home Chardonnay Young Vines 2020
+          </div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img
+            class="full_img"
+            src="./resources/images/Single Vineyard Pinot Noir 2019 Case.jpg"
+            alt=""
+          />
+          <div class="productName">Single Vineyard Pinot Noir 2019 Case</div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img
+            class="full_img"
+            src="./resources/images/Aged Pinot Noir six pack.jpg"
+            alt=""
+          />
+          <div class="productName">Aged Pinot Noir six pack</div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img
+            class="full_img"
+            src="./resources/images/Aged Pinot Noir Twelve Pack.jpg"
+            alt=""
+          />
+          <div class="productName">Aged Pinot Noir Twelve Pack</div>
+          <div class="productPrice">$35.00</div>
+        </div>
+        <div class="shop_productList">
+          <img class="full_img" src="./resources/images/voucher.jpg" alt="" />
+          <div class="productName">voucher</div>
+          <div class="productPrice">$35.00</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_container">
+        <div class="footer_title">FRIENDS OF BLACK ESTATE</div>
+        <div class="footer_subtitle">
+          Get Latest News and Special Offers in Your Inbox
+        </div>
+        <form>
+          <div class="form_line">
+            <label for="fname">First name </label
+            ><input class="input_text" type="text" id="fname" value="" />
+            <label for="lname">Last name </label
+            ><input class="input_text" type="text" id="lname" value="" />
+          </div>
+          <div class="form_line">
+            <label for="email">Email Address</label
+            ><input class="input_text" type="text" name="" id="email" />
+          </div>
+          <div class="submit">
+            <input type="submit" value="Subscribe" /><a
+              href="wineclub.html"
+              class="about_club"
+              >About Club</a
+            >
+          </div>
+        </form>
+        <div class="sns">
+          <a href="https://www.facebook.com/blackestatewines/" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://www.instagram.com/blackestate/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer_underline"></div>
+      <p>
+        614 Omihi Road (SH1). Waipara Valley, New Zealand |
+        connect@blackestate.co.nz | 64 3 314 6085
+        <br />
+        Cellar Door 10am - 4pm ( Thur to Mon )&nbsp; | &nbsp; Restaurant 11:30am
+        - 4pm ( Fri to Mon )
+      </p>
+    </footer>
+
+    <!--MOBILE NAV JS-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
